@@ -4,4 +4,4 @@
 FROM localhost/neovim
 
 # Install chicken scheme and extra deps.
-RUN sudo dnf install -y chicken openssl-devel redhat-rpm-config
+RUN sudo dnf install -y chicken openssl-devel redhat-rpm-config zlib-devel
