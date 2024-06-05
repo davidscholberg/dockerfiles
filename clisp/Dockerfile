@@ -1,10 +1,7 @@
 # Creates a development image for doing development with common lisp.
 
-# Base image off of Fedora's toolbox image.
-FROM registry.fedoraproject.org/fedora-toolbox
-
-# Install general dev utilities.
-RUN sudo dnf install -y gcc neovim ripgrep
+# Base image off of our local neovim image.
+FROM localhost/neovim
 
 # Install clisp
 RUN sudo dnf install -y clisp
