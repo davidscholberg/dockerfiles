@@ -4,4 +4,4 @@
 FROM localhost/neovim
 
 # Install compiler and other build tools.
-RUN sudo dnf install -y cmake gcc-c++ make
+RUN sudo dnf install -y cmake gcc-c++ gdb make ninja-build
