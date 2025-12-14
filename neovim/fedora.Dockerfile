@@ -2,7 +2,7 @@
 # This image is meant to be used as a base for other images in this repo.
 
 # Base image off of Fedora's toolbox image.
-FROM registry.fedoraproject.org/fedora-toolbox:42
+FROM registry.fedoraproject.org/fedora-toolbox:43
 
 # Install neovim and dependencies for my neovim config.
 RUN sudo dnf install -y fd-find gcc neovim ripgrep
