@@ -5,4 +5,4 @@
 FROM registry.fedoraproject.org/fedora-toolbox:42
 
 # Install neovim and dependencies for my neovim config.
-RUN sudo dnf install -y ripgrep neovim gcc
+RUN sudo dnf install -y fd-find gcc neovim ripgrep

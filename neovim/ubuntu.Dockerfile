@@ -7,4 +7,4 @@ FROM quay.io/toolbx/ubuntu-toolbox:24.10
 # Install neovim and dependencies for my neovim config.
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get -y upgrade && \
-    DEBIAN_FRONTEND=noninteractive apt-get -y install gcc neovim ripgrep
+    DEBIAN_FRONTEND=noninteractive apt-get -y install fd-find gcc neovim ripgrep
